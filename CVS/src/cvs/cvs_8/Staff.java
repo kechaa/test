@@ -1,5 +1,7 @@
 package cvs.cvs_8;
 
+import java.awt.BorderLayout;
+
 import javax.swing.*;
 
 import cvs.staff_view.Staffinfo;
@@ -28,6 +30,7 @@ public class Staff extends JPanel{
 
 		pane.setSelectedIndex(0);
 
+		setLayout(new BorderLayout());
 		add("Center", pane );
 		setSize(900,600);
 		setVisible( true );
